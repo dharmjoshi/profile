@@ -1,7 +1,5 @@
-import React from "react";
 export default function Header(props) {
   let { page } = props;
-  console.log(page);
   return (
     <div class="min-h-screen min-w-full bg-gray-100 flex flex-col justify-center p-10">
       <div class="relative w-full max-w-full lg:max-w-6xl xl:max-w-screen-2xl mx-auto">
