@@ -3,13 +3,13 @@ export default function Header(props) {
   let { page } = props;
   console.log(page);
   return (
-    <div class="min-h-screen min-w-full bg-gray-100 flex flex-col justify-center p-10">
-      <div class="relative w-full max-w-full lg:max-w-6xl xl:max-w-screen-2xl mx-auto">
-        <div class="absolute inset-0 -mr-3.5 bg-gradient-to-r from-red-100 to-purple-500 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:rotate-3 sm:rounded-3xl"></div>
+    <div class="min-h-screen min-w-full bg-gray-100 flex flex-col justify-center ">
+      <div class="relative w-full max-w-full lg:max-w-6xl xl:max-w-screen-xl mx-auto">
+        <div class=" animate-pulse absolute inset-0 -mr-3.5 bg-gradient-to-r from-red-100 to-purple-500 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:rotate-3 sm:rounded-3xl"></div>
         <div class="relative bg-white shadow-lg sm:rounded-3xl">
-          <div class="px-20 py-6">
-            <div class="lg:2/6 xl:w-2/4 mt-20 lg:mt-40 lg:ml-16 text-left">
-              <div class="text-6xl font-semibold text-gray-900 leading-none">
+          <div class="px-10 py-5">
+            <div class="lg:2/6 xl:w-2/4 mt-20 lg:mt-40 lg:ml-16 ">
+              <div class="text-5xl font-semibold text-gray-900 leading-none">
                 Hi, My Name is <span className="">Dharm Joshi </span>
                 and I am IT Engineer
               </div>

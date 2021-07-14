@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "../components/header";
 import Footer from "../components/Footer";
-import Image from "next/image";
 
 export default function Index() {
   return (
@@ -14,9 +13,9 @@ export default function Index() {
         <main>
           <section class=" bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500  pattern py-3 rounded "></section>
 
-          <div class="min-h-screen min-w-full bg-gray-100 flex flex-col justify-center p-10cd">
+          <div class="max-h-screen max-w-full bg-gray-100 flex flex-col justify-center p-2">
             <div class="relative  py-4 sm:max-w-xl sm:mx-auto">
-              <div class="absolute inset-0 bg-gradient-to-r from-blue-300 to-blue-600 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl"></div>
+              <div class=" animate-pulse absolute inset-0 bg-gradient-to-r from-blue-300 to-blue-600 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl"></div>
 
               <div class="relative px-4 py-10 bg-white shadow-lg sm:rounded-3xl sm:p-20">
                 <div class="max-w-md mx-auto">
@@ -122,7 +121,7 @@ export default function Index() {
           <div class="container mx-auto my-5">
             <div class="relative rounded-lg flex flex-col md:flex-row items-center md:shadow-xl md:h-72 mx-2  ease-in-out transform hover:-translate-y-1 hover:scale-200">
               <img
-                class="object-cover relative rounded-lg flex flex-col md:flex-row items-center md:shadow-xl md:h-72 mx-2  ease-in-out transform hover:-translate-y-1 hover:scale-200 "
+                class=" object-cover relative rounded-lg flex flex-col md:flex-row items-center md:shadow-xl md:h-72 mx-2  ease-in transform hover:-translate-y-1"
                 src="/proimage/Solar.png"
                 width={800}
                 alt=""
@@ -251,18 +250,20 @@ export default function Index() {
               </div>
             </div>
           </div>
-          <div class="min-h-screen min-w-full bg-gray-100 flex flex-col justify-center p-10">
+          <section class="bg-gradient-to-r from-red-100 to-purple-500  pattern py-20">
+            {" "}
+            <div class="mb-3 text-center">
+              <h1 class="text-3xl font-bold hover:underline hover:text-blue-200   ">
+                More to come
+              </h1>
+            </div>
+          </section>
+          <div class="max-h-screen max-w-full bg-gray-100 flex flex-col justify-center p-5">
             <div class="relative w-full max-w-full lg:max-w-6xl xl:max-w-screen-2xl mx-auto">
-              <div class="absolute inset-0 -mr-3.5 bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500   shadow-lg transform -skew-y-6 sm:skew-y-0 sm:rotate-3 sm:rounded-3xl"></div>
+              <div class="absolute animate-pulse inset-0 -mr-3.5 bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500   shadow-lg transform -skew-y-6 sm:skew-y-0 sm:rotate-3 sm:rounded-3xl"></div>
               <div class="relative bg-white shadow-lg sm:rounded-3xl">
-                <div class="px-20 py-6">
+                <div class=" py-6">
                   <div class="max-w-5xl px-6 mx-auto text-center ">
-                    <div class="mb-3">
-                      <h1 class="text-3xl font-bold hover:underline hover:text-blue-200 ">
-                        More to come
-                      </h1>
-                    </div>
-
                     <div class="flex -mx-1 mb-5">
                       <div class="w-1/2 px-1">
                         <a
