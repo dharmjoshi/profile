@@ -11,7 +11,7 @@ export default function Index() {
         <main></main>
 
         <main>
-          <section class=" bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500  pattern py-3 rounded "></section>
+          <section class=" bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500  pattern py-3 rounded  pattern py-20"></section>
 
           <div class="max-h-screen max-w-full bg-gray-100 flex flex-col justify-center p-2">
             <div class="relative  py-4 sm:max-w-xl sm:mx-auto">
