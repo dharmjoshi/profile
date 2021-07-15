@@ -36,7 +36,7 @@ export default function Index() {
                     </p> */}
                   </h1>
                 </div>
-                <a download="Dharm_joshi.pdf">
+                <a download="Dharm_joshi.pdf" href="Dharm_joshi.pdf" target='_blank'>
                   <button className="mt-6 px-8 py-4 rounded-full font-normal tracking-wide bg-gradient-to-b from-blue-600 to-blue-700 text-white outline-none focus:outline-none hover:shadow-lg hover:from-blue-700 transition duration-200 ease-in-out">
                     Resume
                   </button>
