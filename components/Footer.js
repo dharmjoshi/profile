@@ -1,3 +1,4 @@
+import React from "react";
 export default function Footer() {
   return (
     <div>
@@ -18,8 +19,11 @@ export default function Footer() {
                 Would you like to work with me? Contact Me!
               </p>
               <div class="w-44 pt-6 md:pt-0">
-                <a class="bg-blue-200 justify-center text-center rounded-lg shadow px-10 py-3 flex items-center">
-                  Let's Talk
+                <a href="tel:+91-915-755-9900">
+                  <button class="bg-blue-200 justify-center text-center rounded-lg shadow px-10 py-3 flex items-center">
+                    {" "}
+                    Let's Talk
+                  </button>
                 </a>
               </div>
             </div>
