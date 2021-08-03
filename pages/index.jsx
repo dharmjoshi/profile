@@ -13,7 +13,10 @@ export default function Index() {
         <main>
           <section class=" bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500  pattern py-3 rounded py-20 "></section>
 
-          <div class="max-h-screen max-w-full bg-gray-100 flex flex-col justify-center p-2 ">
+          <div
+            class="max-h-screen max-w-full bg-gray-100 flex flex-col justify-center p-2 "
+            id="ab"
+          >
             <div class="relative  py-4 sm:max-w-xl sm:mx-auto">
               <div class=" animate-pulse absolute inset-0 bg-gradient-to-r from-blue-300 to-blue-600 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl"></div>
 
@@ -36,7 +39,11 @@ export default function Index() {
                     </p> */}
                   </h1>
                 </div>
-                <a download="Dharm_joshi.pdf" href="Dharm_joshi.pdf" target='_blank'>
+                <a
+                  download="Dharm_joshi.pdf"
+                  href="Dharm_joshi.pdf"
+                  target="_blank"
+                >
                   <button className="mt-6 px-8 py-4 rounded-full font-normal tracking-wide bg-gradient-to-b from-blue-600 to-blue-700 text-white outline-none focus:outline-none hover:shadow-lg hover:from-blue-700 transition duration-200 ease-in-out">
                     Resume
                   </button>
@@ -258,9 +265,7 @@ export default function Index() {
           <section class="bg-gradient-to-r from-red-100 to-purple-500  pattern py-20">
             {" "}
             <div class="mb-3 text-center">
-              <h1 class="text-3xl font-bold hover:underline hover:text-blue-200   ">
-                More to come
-              </h1>
+              <h1 class="text-3xl font-bold hover:underline hover:text-blue-200   "></h1>
             </div>
           </section>
           <div class="max-h-screen max-w-full bg-gray-100 flex flex-col justify-center p-5">
